@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=engine
+comment0.target=UserInterface(CalcEngine)
+comment0.text=\r\n\ Create\ a\ user\ interface.\r\n\ @param\ engine\ The\ calculator\ engine.\r\n
+comment1.params=visible
+comment1.target=void\ setVisible(boolean)
+comment1.text=\r\n\ Set\ the\ visibility\ of\ the\ interface.\r\n\ @param\ visible\ true\ if\ the\ interface\ is\ to\ be\ made\ visible,\ false\ otherwise.\r\n
+comment2.params=
+comment2.target=void\ makeFrame()
+comment2.text=\r\n\ Make\ the\ frame\ for\ the\ user\ interface.\r\n
+comment3.params=panel\ buttonText
+comment3.target=void\ addButton(java.awt.Container,\ java.lang.String)
+comment3.text=\r\n\ Add\ a\ button\ to\ the\ button\ panel.\r\n\ @param\ panel\ The\ panel\ to\ receive\ the\ button.\r\n\ @param\ buttonText\ The\ text\ for\ the\ button.\r\n
+comment4.params=event
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=\r\n\ An\ interface\ action\ has\ been\ performed.\r\n\ Find\ out\ what\ it\ was\ and\ handle\ it.\r\n\ this\ takes\ the\ command\ given\ as\ passes\ it\ as\ a\ string\ to\r\n\ methods\ defined\ in\ CalcEngine.\r\n
+comment5.params=
+comment5.target=void\ redisplay()
+comment5.text=\r\n\ Update\ the\ interface\ display\ to\ show\ the\ current\ value\ of\ the\ \r\n\ calculator.\r\n
+comment6.params=
+comment6.target=void\ showInfo()
+comment6.text=\r\n\ Toggle\ the\ info\ display\ in\ the\ calculator's\ status\ area\ between\ the\r\n\ author\ and\ version\ information.\r\n
+numComments=7

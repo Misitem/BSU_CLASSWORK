@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.Object\ stackPop()
+comment1.params=in
+comment1.target=void\ stackPush(java.lang.Object)
+numComments=2

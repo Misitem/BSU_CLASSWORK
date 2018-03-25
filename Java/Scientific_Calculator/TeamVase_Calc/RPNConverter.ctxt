@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=token
+comment0.target=boolean\ isOperator(java.lang.String)
+comment0.text=\r\n\ Test\ if\ a\ certain\ is\ an\ operator\ .\r\n\ @param\ token\ The\ token\ to\ be\ tested\ .\r\n\ @return\ True\ if\ token\ is\ an\ operator\ .\ Otherwise\ False\ .\r\n
+comment1.params=token\ type
+comment1.target=boolean\ isAssociative(java.lang.String,\ int)
+comment1.text=\r\n\ Test\ the\ associativity\ of\ a\ certain\ operator\ token\ .\r\n\ @param\ token\ The\ token\ to\ be\ tested\ (needs\ to\ operator).\r\n\ @param\ type\ LEFT_ASSOC\ or\ RIGHT_ASSOC\r\n\ @return\ True\ if\ the\ tokenType\ equals\ the\ input\ parameter\ type\ .\r\n
+comment2.params=token1\ token2
+comment2.target=int\ checkPrecedence(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Compare\ precendece\ of\ two\ operators.\r\n\ @param\ token1\ The\ first\ operator\ .\r\n\ @param\ token2\ The\ second\ operator\ .\r\n\ @return\ A\ negative\ number\ if\ token1\ has\ a\ smaller\ precedence\ than\ token2,\r\n\ 0\ if\ the\ precendences\ of\ the\ two\ tokens\ are\ equal,\ a\ positive\ number\r\n\ otherwise.\r\n
+comment3.params=inputTokens
+comment3.target=java.lang.String[]\ infixToRPN(java.lang.String[])
+numComments=4

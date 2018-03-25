@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=current
+comment0.target=java.lang.Boolean\ hasOperator(java.lang.String)
+comment0.text=\ We\ check\ to\ see\ if\ the\ input\ is\ a\ basic\ operator,\ we\ need\ to\ know\ this\ so\ we\ know\ when\ to\ calculate\ and\ what\ the\ \r\n\ input\ parameters\ are\ going\ to\ be.\r\n\ returns\ true\ if\ input\ is\ contained\ in\ 'Operators'\ array,\ else\ return\ false.\ \r\n
+comment1.params=current
+comment1.target=java.lang.Boolean\ hasSpecialOp(java.lang.String)
+comment1.text=\r\n\ This\ does\ the\ same\ thing\ but\ checks\ to\ see\ if\ the\ given\ operator\ is\ a\ special\ operation\r\n\ aka\ only\ uses\ 1\ operand.\r\n
+comment2.params=currentOp\ n1
+comment2.target=java.lang.Double\ performOperation(java.lang.String,\ java.lang.Double)
+comment2.text=\ \r\n\ Below\ are\ two\ variations\ of\ the\ same\ method,\ their\ job\ is\ to\ calculate\ a\ result\ when\ given\ an\ operator\ and\ some\ operand(s)\r\n\ One\ takes\ a\ string\ and\ one\ double,\ the\ next\ takes\ a\ string\ and\ two\ doubles\r\n\ I\ made\ two\ separate\ methods\ because\ the\ number\ of\ operands\ is\ dependant\ on\ the\ type\ of\ operator\ we're\ applying.\r\n\ If\ it\ is\ a\ special\ operator\ we\ only\ need\ to\ provide\ one\ input\ number\ with\ the\ operator,\ if\ it\ is\ a\ basic\ operator\r\n\ we\ need\ both\ numbers\ involved\ with\ the\ operation.\ For\ '-'\ and\ '/'\ order\ matters,\ so\ that\ is\ addressed.\ \r\n
+comment3.params=currentOp\ n1\ n2
+comment3.target=java.lang.Double\ performOperation(java.lang.String,\ java.lang.Double,\ java.lang.Double)
+comment4.params=entries
+comment4.target=java.lang.Double\ getAnswer(java.lang.String[])
+comment4.text=\ This\ will\ evalulate\ the\ input\ String[]\ using\ the\ standard\ algorithm\ to\ solve\ in\ Reverse\ Polish\ Notation\r\n\ So..\ If\ you\ see\ a\ number,\ add\ it\ on\ to\ the\ stack.\ Once\ you\ see\ an\ operator,\ pop\ the\ top\ 2\ numbers\ off\ \r\n\ the\ stack,\ make\ the\ first\ pop\ your\ RIGHT\ operand,\ and\ the\ second\ the\ LEFT,\ \r\n\ then\ apply\ the\ operator(done\ by\ the\ performOperation\ method).\r\n\ Push\ the\ result\ to\ the\ stack.\ Check\ if\ the\ queue,\ aka\ your\ input\ string,\ is\ empty.\ If\ so\ ,\ the\ result\r\n\ should\ be\ the\ only\ thing\ on\ the\ stack,\ so\ we\ can\ return\ that\ as\ a\ double.\ \r\n
+numComments=5
